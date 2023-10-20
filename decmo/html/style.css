@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    list-style-type: none;
+}
+a{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: skyblue;
+}
+.product{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(2):hover .product{
+    display: block;
+}
+.Book{
+    list-style: none;
+    transform: translate(200px) translateY(-45px);
+    position: absolute;
+    display: none;
+
+}
+.product li:nth-child(3):hover .Book {
+    display: block;
+}
+
+  
